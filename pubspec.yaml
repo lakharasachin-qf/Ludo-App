@@ -1,0 +1,31 @@
+name: ludo_flutter
+description: Ludo game with flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+dependencies:
+  animate_do: ^4.2.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.1
+  just_audio: ^0.10.5
+  provider: ^6.1.5+1
+  simple_ripple_animation: ^0.1.0
+  sizer: ^3.1.3
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/svgs/
+    - assets/images/dice/
+    - assets/images/crown/
+    - assets/sounds/
