@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:ludo_flutter/constant/color_const.dart';
+import 'package:ludo_flutter/constant/string_constant.dart';
 import 'package:ludo_flutter/screens/ludo_home.dart';
 import 'package:ludo_flutter/utils/helper.dart';
 import 'package:provider/provider.dart';
@@ -61,7 +62,7 @@ class _RootState extends State<Root> {
         return const MaterialApp(
           debugShowCheckedModeBanner: false,
           color: white,
-          title: "Ludo",
+          title: appName,
           home: LudoHomeScreen(),
         );
       },
